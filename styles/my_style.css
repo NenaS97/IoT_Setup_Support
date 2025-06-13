@@ -1,0 +1,91 @@
+body {
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2.1em;
+    text-align: center;
+    color: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 1rem 0;
+}
+
+h2.title,
+h3.title,
+h4.title {
+  font-size: 1.5em;
+  text-align: left;
+  color: black;
+}
+
+.shortdesc {
+  line-height: 1.6;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+}
+
+.p {
+  line-height: 1.6;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+}
+
+ul, ol {
+  line-height: 1.6;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  margin-left: 1.5em;
+  padding-left: 1em;
+}
+
+li {
+  line-height: 1.6;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  margin-bottom: 0.6em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  border: 1px solid black;
+  padding: 0.5rem;
+  letter-spacing: 0.03rem;
+  text-align: center; 
+}
+
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+  letter-spacing: 0.03rem;
+  text-align: left; 
+}
+
+.note {
+  border: 1px solid red;
+  background-color: #ffe6e6;
+  color: #b30000;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}

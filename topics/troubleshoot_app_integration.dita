@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//Nena//DTD Troubleshooting Topic//EN" "../dtd/troubleshootingDomain.dtd">
+<troubleshooting id="app_integration">
+
+<title>Troubleshoot App Integration Issues</title>
+<shortdesc>This topic addresses issues where an IoT device does not appear in the companion mobile app. It explains common causes and provides remedies to restore app-device sync.</shortdesc>
+
+<problem>
+<title>Problem:</title>
+
+<p>The IoT device is not visible or listed in the mobile application despite being powered on and connected to the network.</p>
+</problem>
+
+<cause>
+<title>Possible Causes:</title>
+
+<ul>
+<li><b>Out-of-Sync Account:</b> The user account may not be properly synced with the device or backend server.</li>
+<li><b>Outdated App Version:</b> Older versions of the companion app may lack support for the latest device firmware or features.</li>
+<li><b>App Permission Restrictions:</b> The app may not have the required permissions to access the device, location, or local network.</li>
+</ul>
+</cause>
+
+<remedy>
+<title>Possible Solutions:</title>
+
+<ol>
+
+<li><b>Re-login or Resync the Account</b>
+<ul>
+<li>Sign out of the mobile application.</li>
+<li>Sign back in using the correct credentials.</li>
+<li>Use the "Sync Devices" or "Refresh" option if available in the app settings.</li>
+</ul>
+</li>
+
+<li><b>Reinstall the Companion App</b>
+<ul>
+<li>Uninstall the current version of the app from your mobile device.</li>
+<li>Reboot your device (optional but recommended).</li>
+<li>Download and install the latest version from the official app store.</li>
+<li>Log in again and check for device visibility.</li>
+</ul>
+</li>
+
+<li><b>Enable Required Permissions</b>
+<ul>
+<li>Navigate to your phone’s app settings.</li>
+<li>Ensure permissions for location, Bluetooth, and local network access are granted.</li>
+<li>Relaunch the app and allow all requested permissions during setup.</li>
+</ul>
+</li>
+
+</ol>
+
+<p>For cases where the issue may be related to firmware compatibility, refer to <xref href="firmware_update.dita">Firmware Update</xref> for steps to update your device firmware.</p>
+</remedy>
+
+</troubleshooting>

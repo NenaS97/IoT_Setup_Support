@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//Nena//DTD Troubleshooting Topic//EN" "../dtd/troubleshootingDomain.dtd">
+<troubleshooting id="connectivity_issues">
+
+<title>Troubleshoot Connectivity Issues</title>
+<shortdesc>This topic addresses common connectivity problems that prevent IoT devices from successfully connecting to a Wi-Fi network. It outlines possible causes and provides step-by-step remedies.</shortdesc>
+
+<problem>
+<title>Problem:</title>
+
+<p>The device fails to connect to the configured Wi-Fi network, preventing it from completing setup or syncing with the cloud.</p>
+</problem>
+
+<cause>
+<title>Possible Causes:</title>
+
+<ul>
+<li><b>Weak Wi-Fi Signal:</b> The device may be too far from the router, resulting in unstable or dropped connections.</li>
+<li><b>ncorrect Network Credentials:</b> An incorrect SSID or password can prevent authentication.</li>
+<li><b>Dual-Band Conflicts:</b> Some IoT devices only support 2.4GHz networks and may fail when attempting to connect to a 5GHz band.</li>
+</ul>
+</cause>
+
+<remedy>
+<title>Possible Solutions:</title>
+
+<ol>
+
+<li><b>Reboot Router and Device</b>
+<ul>
+<li>Power off the Wi-Fi router.</li>
+<li>Wait 10–15 seconds and power it back on.</li>
+<li>Restart the IoT device by unplugging and replugging or using the reset function.</li>
+<li>Retry the connection process.</li>
+</ul>
+</li>
+
+<li><b>Switch to 2.4GHz Network</b>
+<ul>
+<li>Access your router settings and ensure the 2.4GHz band is enabled.</li>
+<li>Temporarily disable the 5GHz band during setup, if needed.</li>
+<li>Reconnect the IoT device using the 2.4GHz network only.</li>
+</ul>
+</li>
+
+<li><b>Verify and Re-enter Wi-Fi Credentials</b>
+<ul>
+<li>Double-check SSID (network name) and password spelling.</li>
+<li>Re-enter credentials through the companion app.</li>
+</ul>
+</li>
+
+<li><b>Check App Version and Compatibility</b>
+<ul>
+<li>Open the app store and confirm you have the latest version of the IoT companion app.</li>
+<li>Update the app if a newer version is available.</li>
+<li>Re-initiate the setup using the updated app version.</li>
+</ul>
+</li>
+
+</ol>
+</remedy>
+
+</troubleshooting>

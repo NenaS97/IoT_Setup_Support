@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="setup">
+
+<title>How To Set Up Smart Hubs?</title>
+<shortdesc>This topic provides step-by-step instructions for installing and configuring a smart hub, which serves as the central controller for managing connected IoT devices in a smart environment.</shortdesc>
+
+<taskbody>
+
+<prereq>
+<p>
+<image href="../images/setup_menu.png">
+<alt>AI-generated example image of smart hub settings feature</alt>
+</image>
+</p>
+<p>Before setup, check the smart hub’s compatibility with your Wi-Fi band (2.4 GHz vs. 5 GHz) and ensure your connected devices support the same communication protocols (e.g., Zigbee, Z-Wave).</p>
+
+<p><b>Required Accessories:</b></p>
+<ul>
+<li>Power adapter (included)</li>
+<li>Ethernet cable (optional, depending on hub model)</li>
+<li>Smartphone or tablet with internet access</li>
+<li>Mobile app (available via iOS or Android app stores)</li>
+</ul>
+</prereq>
+
+<context>
+<p><b>STEPS:</b></p>
+</context>
+
+<steps>
+
+<step>
+<cmd><b>Unbox the Smart Hub</b></cmd>
+<info>Remove the smart hub, power adapter, and user manual from the packaging.</info>
+</step>
+
+<step>
+<cmd><b>Connect to Power</b></cmd>
+<info>Plug the smart hub into a wall outlet using the provided power adapter. Wait for the device to power on fully.</info>
+</step>
+
+<step>
+<cmd><b>Connect to the Internet</b></cmd>
+<info>Use an Ethernet cable to connect the smart hub to your router, or follow wireless setup instructions if the hub supports Wi-Fi.</info>
+</step>
+
+<step>
+<cmd><b>Download the Companion App</b></cmd>
+<info>Install the manufacturer’s mobile app on your smartphone or tablet. This app will be used to manage hub settings and devices.</info>
+</step>
+
+<step>
+<cmd><b>Create or Log In to Your Account</b></cmd>
+<info>Open the app and sign in using your existing account or create a new one if required.</info>
+</step>
+
+<step>
+<cmd><b>Pair the Smart Hub</b></cmd>
+<info>Follow the in-app instructions to detect and register the smart hub to your account.</info>
+</step>
+
+<step>
+<cmd><b>Add IoT Devices</b></cmd>
+<info>Start pairing your smart lights, thermostats, sensors, and other IoT devices through the app’s device-adding wizard.</info>
+</step>
+
+<step>
+<cmd><b>Test Connectivity</b></cmd>
+<info>Ensure each connected device responds properly to commands issued from the app or hub interface</info>
+</step>
+
+</steps>
+</taskbody>
+</task>

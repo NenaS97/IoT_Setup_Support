@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="supported_devices">
+
+<title>Supported Devices Matrix</title>
+<shortdesc>This reference provides a detailed matrix of all IoT devices supported by the smart hub system, including their communication protocols, required mobile applications, and minimum firmware versions. Use this table to verify compatibility before attempting to connect devices.</shortdesc>
+
+<refbody>
+
+<section>
+<title>Device Compatibility Table:</title>
+<p>The following table lists the supported IoT devices along with their technical requirements and dependencies. Each entry includes the device name, communication protocol, required application, and the minimum supported firmware version. Filtering attributes such as product line or regional availability can be applied when generating output for specific audiences.</p>
+
+<table frame="all">
+<tgroup cols="4" colsep="1" rowsep="1">
+<colspec colname="a1" colwidth="40%"/>
+<colspec colname="a2" colwidth="30%"/>
+<colspec colname="a3" colwidth="30%"/>
+<colspec colname="a4" colwidth="30%"/>
+
+<thead>
+<row>
+<entry><b>Device Name</b></entry>
+<entry><b>Protocol</b></entry>
+<entry><b>App Required</b></entry>
+<entry><b>Min. Firmware Version</b></entry>
+</row>
+</thead>
+
+<tbody>
+
+<row>
+<entry>SmartPlug S20</entry>
+<entry>Wi-Fi</entry>
+<entry>SmartHome Connect</entry>
+<entry>2.3.1</entry>
+</row>
+
+<row>
+<entry>Motion Sensor M2</entry>
+<entry>Zigbee</entry>
+<entry>HomeSense</entry>
+<entry>1.8.0</entry>
+</row>
+
+<row>
+<entry>Thermostat T3000	</entry>
+<entry>Wi-Fi</entry>
+<entry>EcoControl</entry>
+<entry>3.1.2</entry>
+</row>
+
+<row>
+<entry>Door Lock DL100</entry>
+<entry>Z-Wave</entry>
+<entry>LockSecure</entry>
+<entry>5.0.4</entry>
+</row>
+
+<row>
+<entry>Light Bulb LBX</entry>
+<entry>Zigbee</entry>
+<entry>BrightLife</entry>
+<entry>2.0.0</entry>
+</row>
+
+<row>
+<entry>Security Camera SC5</entry>
+<entry>Wi-Fi</entry>
+<entry>SecureVision</entry>
+<entry>4.4.0</entry>
+</row>
+
+<row>
+<entry>Smoke Detector SD-Pro</entry>
+<entry>Zigbee</entry>
+<entry>HomeSense</entry>
+<entry>1.5.2</entry>
+</row>
+
+<row>
+<entry>Smart Hub H1</entry>
+<entry>Ethernet</entry>
+<entry>SmartHub Manager</entry>
+<entry>6.2.0</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<note>
+Filtering attributes such as product="consumer" or region="IN" can be added using conditional processing to target specific audiences or regional configurations.
+</note>
+
+</section>
+</refbody>
+</reference>

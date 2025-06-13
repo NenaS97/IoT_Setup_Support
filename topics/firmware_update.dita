@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="firmware_update">
+
+<title>How To Update Device Firmware?</title>
+<shortdesc>This topic provides step-by-step instructions for safely updating the firmware of your IoT device, including tips to avoid interruptions and a reference to troubleshooting resources.</shortdesc>
+
+<taskbody>
+
+<prereq>
+<note type="warning">
+Ensure that your device remains powered on and connected to a stable network during the entire update process. Interruptions may result in device malfunction or failed installation.
+</note>
+
+<p><b>STEPS</b></p>
+</prereq>
+
+<steps>
+
+<step>
+<cmd>Open the manufacturer’s app or access the device’s web interface.</cmd>
+</step>
+
+<step>
+<cmd>Navigate to the “Settings” or “Device Info” section to check the current firmware version.</cmd>
+</step>
+
+<step>
+<cmd>If an update is available, tap “Update Firmware” or follow the link to the manufacturer’s website.</cmd>
+</step>
+
+<step>
+<cmd>Download the latest firmware file through the app or from the official support page.</cmd>
+</step>
+
+<step>
+<cmd>Start the update process and follow the on-screen instructions.</cmd>
+</step>
+
+<step>
+<cmd>Do not turn off the device or close the app during the update.</cmd>
+</step>
+
+<step>
+<cmd>Once the update completes, verify the firmware version again to confirm success.</cmd>
+</step>
+</steps>
+
+<postreq>
+<p>If the update fails or causes issues, refer to <xref href="troubleshoot_firmware_issues.dita">Troubleshoot Firmware Issues.</xref></p>
+</postreq>
+
+</taskbody>
+</task>

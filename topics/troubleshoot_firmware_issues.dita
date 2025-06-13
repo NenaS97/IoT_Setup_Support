@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//Nena//DTD Troubleshooting Topic//EN" "../dtd/troubleshootingDomain.dtd">
+<troubleshooting id="firmware_issues">
+
+<title>Troubleshoot Firmware Update Failures</title>
+<shortdesc>This topic addresses issues where a firmware update fails or renders the IoT device non-functional ("bricked"). It outlines common causes and provides recovery methods.</shortdesc>
+
+<problem>
+<title>Problem:</title>
+
+<p>The device fails to complete a firmware update or becomes unresponsive after the update process.</p>
+</problem>
+
+<cause>
+<title>Possible Causes:</title>
+
+<ul>
+<li><b>Interrupted Update:</b> The update process was disrupted due to power loss or network disconnection.</li>
+<li><b>Version Mismatch:</b> An incorrect or incompatible firmware version was installed, causing system failure or erratic behavior.</li>
+</ul>
+</cause>
+
+<remedy>
+<title>Possible Solutions:</title>
+
+<ol>
+
+<li><b>Use Manual Recovery or Factory Reset</b>
+<ul>
+<li>Disconnect power and wait for 30 seconds.</li>
+<li>Press and hold the reset or recovery button (refer to the device manual for exact steps).</li>
+<li>Reconnect power and wait for the device to reinitialize.</li>
+<li>If supported, connect via a USB tool or recovery app to flash the original firmware version.</li>
+</ul>
+</li>
+
+<li><b>Avoid Updating on Low Battery</b>
+<ul>
+<li>Ensure the device is fully charged or plugged into a stable power source before initiating updates.</li>
+<li>For battery-operated devices, maintain at least 50% battery to prevent shutdown during firmware installation.</li>
+</ul>
+</li>
+
+<li><b>Contact Customer Support</b>
+<ul>
+<li>If recovery fails, contact the official support team for guided assistance or replacement.</li>
+</ul>
+</li>
+
+</ol>
+</remedy>
+
+</troubleshooting>

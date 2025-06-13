@@ -1,0 +1,74 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2025"><meta name="generator" content="DITA-OT"><meta name="description" content="IoT architecture refers to the layered structure that defines how IoT systems are built and operate. It includes devices, communication networks, cloud infrastructure, and user interfaces that collectively enable data collection, transmission, processing, and interaction."><title>IoT Architecture</title><link rel="stylesheet" type="text/css" href="../../styles/my_style.css"></head><body id="architecture"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+
+<h1 class="title topictitle1" id="ariaid-title1">IoT Architecture</h1>
+
+
+<div class="body conbody"><p class="shortdesc">IoT architecture refers to the layered structure that defines how IoT systems are built and operate. It includes devices, communication networks, cloud infrastructure, and user interfaces that collectively enable data collection, transmission, processing, and interaction.</p>
+
+<img class="image" src="../images/Iot_architecture.png" alt="AI-generated example image of an IoT architecture">
+
+<section class="section"><h2 class="title sectiontitle">Overview of IoT Architecture Layers</h2>
+
+
+<p class="p">IoT systems are typically structured into four main layers, each responsible for a specific function in the data lifecycle:</p>
+
+<ul class="ul">
+<li class="li"><strong class="ph b">Device Layer:</strong> This includes physical objects equipped with sensors, actuators, and microcontrollers. Devices collect data from their environment or perform actions in response to commands.</li>
+<li class="li"><strong class="ph b">Network Layer:</strong> This layer handles the communication between devices and backend systems. It supports data transmission using various wired or wireless communication protocols.</li>
+<li class="li"><strong class="ph b">Cloud Layer:</strong> Data collected from devices is transmitted to cloud platforms where it is stored, processed, and analyzed. The cloud also supports large-scale data management, application logic, and integration with other services.</li>
+<li class="li"><strong class="ph b">User Interface (UI) Layer:</strong> This provides dashboards, mobile apps, or web portals that allow users to interact with the IoT system, monitor performance, and configure devices.</li>
+</ul>
+</section>
+
+<section class="section"><h2 class="title sectiontitle">IoT Communication Protocols</h2>
+
+
+<p class="p">IoT devices use a variety of communication protocols depending on the requirements for range, power consumption, and data throughput. Common protocols include:</p>
+
+<ul class="ul">
+<li class="li"><strong class="ph b">Wi-Fi:</strong> Suitable for high data throughput and easy integration with existing networks. It consumes more power and is ideal for applications where constant power is available.</li>
+<li class="li"><strong class="ph b">Zigbee:</strong> A low-power, low-data-rate wireless protocol used for short-range communication in mesh networks. Common in home automation and sensor networks.</li>
+<li class="li"><strong class="ph b">MQTT (Message Queuing Telemetry Transport):</strong> A lightweight messaging protocol ideal for low-bandwidth, high-latency networks. It enables reliable communication between devices and the cloud using a publish-subscribe model.</li>
+</ul>
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Protocol Comparison Table</h2>
+
+
+<table class="table frame-all"><caption></caption><colgroup><col style="width:25%"><col style="width:30%"><col style="width:25%"><col style="width:30%"></colgroup><thead class="thead">
+<tr class="row">
+<th class="entry colsep-1 rowsep-1" id="architecture__entry__1">Protocol</th>
+<th class="entry colsep-1 rowsep-1" id="architecture__entry__2">Range</th>
+<th class="entry colsep-1 rowsep-1" id="architecture__entry__3">Power Consumption</th>
+<th class="entry rowsep-1" id="architecture__entry__4">Use Case</th>
+</tr>
+</thead><tbody class="tbody">
+<tr class="row">
+<td class="entry colsep-1 rowsep-1" headers="architecture__entry__1">Wi-Fi</td>
+<td class="entry colsep-1 rowsep-1" headers="architecture__entry__2">High (100m+)</td>
+<td class="entry colsep-1 rowsep-1" headers="architecture__entry__3">High</td>
+<td class="entry rowsep-1" headers="architecture__entry__4">Smart appliances</td>
+</tr>
+
+<tr class="row">
+<td class="entry colsep-1 rowsep-1" headers="architecture__entry__1">Zigbee</td>
+<td class="entry colsep-1 rowsep-1" headers="architecture__entry__2">Medium (10–100m)</td>
+<td class="entry colsep-1 rowsep-1" headers="architecture__entry__3">Low</td>
+<td class="entry rowsep-1" headers="architecture__entry__4">Smart lighting, sensors</td>
+</tr>
+
+<tr class="row">
+<td class="entry colsep-1" headers="architecture__entry__1">MQTT</td>
+<td class="entry colsep-1" headers="architecture__entry__2">Variable (network dependent)</td>
+<td class="entry colsep-1" headers="architecture__entry__3">Low</td>
+<td class="entry" headers="architecture__entry__4">Cloud messaging, IoT telemetry</td>
+</tr>
+</tbody></table>
+
+<p class="p">To learn how to connect IoT devices specifically using Wi-Fi, refer to: <a class="xref" href="connect_devices_wifi.html" title="This topic explains how to connect smart devices to a Wi-Fi network using standard setup procedures, and includes important compatibility tips and a reference to troubleshooting resources.">Connecting Devices</a> via Wi-Fi.</p>
+</section>
+
+</div>
+</article></main></body></html>

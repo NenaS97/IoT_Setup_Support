@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="introduction">
+
+<title>Introduction</title>
+<shortdesc>The Internet of Things (IoT) refers to the network of interconnected devices that communicate and exchange data with each other through the internet. It enables physical objects—such as home appliances, wearable gadgets, and industrial machines—to collect, transmit, and act on data without human intervention, improving efficiency, automation, and decision-making.</shortdesc>
+
+<conbody>
+
+<image href="../images/Iot_ecosystem.png">
+<alt>AI-generated example image of an IoT ecosytem</alt>
+</image>
+
+<section>
+<title>What is IoT?</title>
+
+<p>IoT, or the Internet of Things, is a system of physical devices that are embedded with sensors, software, and other technologies to connect and exchange data with other systems and devices over the internet. These devices range from simple household items to complex industrial tools. IoT allows for seamless data collection, real-time communication, and automated actions based on environmental inputs or user behavior.</p>
+</section>
+
+<section>
+<title>Benefits and Examples</title>
+
+<p>The primary benefits of IoT include enhanced automation, improved operational efficiency, better resource management, and increased convenience in everyday tasks. For example, smart home systems allow users to control lighting, heating, and security through mobile apps. Wearable health monitors track vital signs and send alerts for abnormal conditions. In industrial settings, IoT enables predictive maintenance and process optimization.</p>
+</section>
+
+
+<section>
+<title>Common IoT Components</title>
+
+<ul>
+<li>Sensors</li>
+<li>Network connectivity modules</li>
+<li>Edge devices or hubs</li>
+<li>Cloud computing platforms</li>
+<li>Mobile or web applications</li>
+<li>Data analytics engines</li>
+<li>Actuators and controllers</li>
+</ul>
+
+<p>For a deeper understanding of how these components work together, see the topic: <xref href="iot_architecture.dita">IoT Architecture.</xref></p>
+
+</section>
+</conbody>
+</concept>

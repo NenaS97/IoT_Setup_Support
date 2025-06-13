@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="errors">
+
+<title>Error Code References</title>
+<shortdesc>This reference lists common error codes encountered during the setup and operation of IoT devices. Each entry includes the error code, system-generated message, a brief description, and a suggested resolution or cross-reference to the appropriate troubleshooting topic.</shortdesc>
+
+<refbody>
+<section>
+<title>Error Code Table:</title>
+
+<p>The following table outlines key error codes reported by the system. These codes help users identify and resolve issues such as connectivity failures, authentication problems, or firmware update interruptions. Where applicable, troubleshooting references are provided for further assistance.</p>
+
+<table frame="all">
+<tgroup cols="4" colsep="1" rowsep="1">
+<colspec colname="a1" colwidth="20%"/>
+<colspec colname="a2" colwidth="30%"/>
+<colspec colname="a3" colwidth="40%"/>
+<colspec colname="a4" colwidth="40%"/>
+
+<thead>
+<row>
+<entry><b>Error Code</b></entry>
+<entry><b>Message</b></entry>
+<entry><b>Description</b></entry>
+<entry><b>Suggested Resolution</b></entry>
+</row>
+</thead>
+
+<tbody>
+
+<row>
+<entry>E101</entry>
+<entry>Login Failed</entry>
+<entry>Incorrect credentials entered or authentication timeout.</entry>
+<entry>Verify username/password and try again.</entry>
+</row>
+
+<row>
+<entry>E102</entry>
+<entry>Network Timeout</entry>
+<entry>Device failed to communicate with server.</entry>
+<entry>Check internet connection or troubleshoot_connectivity.dita</entry>
+</row>
+
+<row>
+<entry>E201</entry>
+<entry>Sync Failure</entry>
+<entry>Device unable to sync settings with the cloud.</entry>
+<entry>Restart device and ensure internet is stable.</entry>
+</row>
+
+<row>
+<entry>E301</entry>
+<entry>Firmware Update Failed</entry>
+<entry>Installation interrupted or version mismatch.</entry>
+<entry>Ensure stable power/network.</entry>
+</row>
+
+<row>
+<entry>E401</entry>
+<entry>Device Not Found</entry>
+<entry>Hub failed to detect the IoT device.</entry>
+<entry>Re-scan or reset the device before retrying.</entry>
+</row>
+
+<row>
+<entry>E501</entry>
+<entry>Unsupported Protocol</entry>
+<entry>Connected device uses an unsupported communication protocol.</entry>
+<entry>Refer to supported_devices_matrix.dita for valid options.</entry>
+</row>
+
+<row>
+<entry>E601</entry>
+<entry>App Version Outdated</entry>
+<entry>Companion app version is not compatible with the device.</entry>
+<entry>Update app from official store and retry.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+</section>
+</refbody>
+</reference>

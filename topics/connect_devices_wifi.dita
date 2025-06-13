@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_connect_devices">
+
+<title>How To Connect Devices?</title>
+<shortdesc>This topic explains how to connect smart devices to a Wi-Fi network using standard setup procedures, and includes important compatibility tips and a reference to troubleshooting resources.</shortdesc>
+
+<taskbody>
+
+<prereq>
+<p>Before beginning, ensure the following:</p>
+<ul>
+<li>The Wi-Fi SSID (network name) and password are available.</li>
+<li>Your mobile device has the necessary manufacturer app installed.</li>
+<li>The device is powered on and in pairing mode.</li>
+</ul>
+
+<p><b>STEPS</b></p>
+
+</prereq>
+
+<steps>
+
+<step>
+<cmd>Open the device manufacturer's app on your smartphone or tablet.</cmd>
+</step>
+
+<step>
+<cmd>Navigate to the “Add Device” or “Connect” option.</cmd>
+</step>
+
+<step>
+<cmd>Select your device model from the list.</cmd>
+</step>
+
+<step>
+<cmd>When prompted, enter the Wi-Fi SSID and password.</cmd>
+</step>
+
+<step>
+<cmd>Confirm the connection and wait for the device to link to the network.</cmd>
+</step>
+
+<step>
+<cmd>Check the app for a success confirmation or status update.</cmd>
+</step>
+
+<step>
+<cmd>Optionally, rename the device and assign it to a room or category for easier management.</cmd>
+</step>
+
+</steps>
+
+<postreq>
+<note>Many smart devices only support 2.4GHz Wi-Fi bands. If your router is set to 5GHz only or using band steering, connection attempts may fail. Check your router settings and connect to a 2.4GHz network if needed.</note>
+<p>If you experience connectivity issues, refer to the topic <xref href="troubleshoot_connectivity.dita">Troubleshoot Connectivity Problems.</xref></p>
+</postreq>
+
+</taskbody>
+</task>

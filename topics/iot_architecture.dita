@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="architecture">
+
+<title>IoT Architecture</title>
+<shortdesc>IoT architecture refers to the layered structure that defines how IoT systems are built and operate. It includes devices, communication networks, cloud infrastructure, and user interfaces that collectively enable data collection, transmission, processing, and interaction.</shortdesc>
+
+<conbody>
+
+<image href="../images/Iot_architecture.png">
+<alt>AI-generated example image of an IoT architecture</alt>
+</image>
+
+<section>
+<title>Overview of IoT Architecture Layers</title>
+
+<p>IoT systems are typically structured into four main layers, each responsible for a specific function in the data lifecycle:</p>
+
+<ul>
+<li><b>Device Layer:</b> This includes physical objects equipped with sensors, actuators, and microcontrollers. Devices collect data from their environment or perform actions in response to commands.</li>
+<li><b>Network Layer:</b> This layer handles the communication between devices and backend systems. It supports data transmission using various wired or wireless communication protocols.</li>
+<li><b>Cloud Layer:</b> Data collected from devices is transmitted to cloud platforms where it is stored, processed, and analyzed. The cloud also supports large-scale data management, application logic, and integration with other services.</li>
+<li><b>User Interface (UI) Layer:</b> This provides dashboards, mobile apps, or web portals that allow users to interact with the IoT system, monitor performance, and configure devices.</li>
+</ul>
+</section>
+
+<section>
+<title>IoT Communication Protocols</title>
+
+<p>IoT devices use a variety of communication protocols depending on the requirements for range, power consumption, and data throughput. Common protocols include:</p>
+
+<ul>
+<li><b>Wi-Fi:</b> Suitable for high data throughput and easy integration with existing networks. It consumes more power and is ideal for applications where constant power is available.</li>
+<li><b>Zigbee:</b> A low-power, low-data-rate wireless protocol used for short-range communication in mesh networks. Common in home automation and sensor networks.</li>
+<li><b>MQTT (Message Queuing Telemetry Transport):</b> A lightweight messaging protocol ideal for low-bandwidth, high-latency networks. It enables reliable communication between devices and the cloud using a publish-subscribe model.</li>
+</ul>
+</section>
+
+<section>
+<title>Protocol Comparison Table</title>
+
+<table frame="all">
+<tgroup cols="4" colsep="1" rowsep="1">
+<colspec colname="a1" colwidth="25%"/>
+<colspec colname="a2" colwidth="30%"/>
+<colspec colname="a3" colwidth="25%"/>
+<colspec colname="a4" colwidth="30%"/>
+
+<thead>
+<row>
+<entry>Protocol</entry>
+<entry>Range</entry>
+<entry>Power Consumption</entry>
+<entry>Use Case</entry>
+</row>
+</thead>
+
+<tbody>
+<row>
+<entry>Wi-Fi</entry>
+<entry>High (100m+)</entry>
+<entry>High</entry>
+<entry>Smart appliances</entry>
+</row>
+
+<row>
+<entry>Zigbee</entry>
+<entry>Medium (10–100m)</entry>
+<entry>Low</entry>
+<entry>Smart lighting, sensors</entry>
+</row>
+
+<row>
+<entry>MQTT</entry>
+<entry>Variable (network dependent)</entry>
+<entry>Low</entry>
+<entry>Cloud messaging, IoT telemetry</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<p>To learn how to connect IoT devices specifically using Wi-Fi, refer to: <xref href="connect_devices_wifi.dita">Connecting Devices</xref> via Wi-Fi.</p>
+</section>
+
+</conbody>
+</concept>

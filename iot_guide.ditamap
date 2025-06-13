@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="index">
+
+<title>Table of Content</title>
+
+<topicref href="topics/intro_to_iot.dita" navtitle="Introduction"/>
+<topicref href="topics/iot_architecture.dita" navtitle="IoT Architecture"/>
+
+<topichead navtitle="How To's?">
+<topicref href="topics/setup_smart_hub.dita" navtitle="How To Set Up Smart Hubs?"/>
+<topicref href="topics/connect_devices_wifi.dita" navtitle="How To Connect Devices?"/>
+<topicref href="topics/firmware_update.dita" navtitle="How To Update Device Firmware?"/>
+</topichead>
+
+<topicref href="topics/supported_devices_matrix.dita" navtitle="Supported Devices Matrix"/>
+<topicref href="topics/error_codes_reference.dita" navtitle="Error Code References"/>
+
+<topichead navtitle="Troubleshooting">
+<topicref href="topics/troubleshoot_connectivity.dita" navtitle="Troubleshoot Connectivity Issues"/>
+<topicref href="topics/troubleshoot_app_integration.dita" navtitle="Troubleshoot App Integration Issues"/>
+<topicref href="topics/troubleshoot_firmware_issues.dita" navtitle="Troubleshoot Firmware Update Failures"/>
+</topichead>
+
+</map>
